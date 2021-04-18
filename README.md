@@ -32,8 +32,9 @@ As configurações de hardware e software usados para o desenvolvimento do progr
     
 Para esse programa as principais estruturas de dados utilizada foram as Classes e os vetores dessas Classes, elas estão contidas nos arquivos “planeta.h” e “ordenacao.h”. As funções foram implementadas dentro de três cpps, que são “planeta.cpp”, “ordenacao.cpp”, “main.cpp”. O funcionamento delas será explicado abaixo.
 
-PLANETA.H:
-    • Class Planeta: É responsável por armazenar as variáveis de cada base utilizado, que no caso são o seu nome e a sua distância até a terra em “saltos”. Os seus métodos são simples, e são divididos entre mudar o valor/estado de suas variáveis e obter seu valor/estado.
+**PLANETA.H:**
+
+• Class Planeta: É responsável por armazenar as variáveis de cada base utilizado, que no caso são o seu nome e a sua distância até a terra em “saltos”. Os seus métodos são simples, e são divididos entre mudar o valor/estado de suas variáveis e obter seu valor/estado.
 ORDENACAO.H:
 
 • Class Ordencao: É a principal TAD utilizada para a criação do programa, ela é responsável por implementar todos os métodos de ordenação utilizados durante o programa, não possuindo nenhuma variável, somente funções.
@@ -49,7 +50,7 @@ ORDENACAO.H:
 • particao_mod( ): É bastante similar a função particao( ), entretanto neste caso são feitas 3 subdivisões, uma com os valores menores que o pivô, uma com os valores iguais ao pivô e uma com os valores maiores que o pivô.
       
 
-MAIN.CPP:
+**MAIN.CPP:**
 
 • Ela é responsável pela verificação da integridade dos arquivos .txt de entrada, ademais é por meio dela que é decidido qual algoritmo será utilizado e o seu tempo de execução.
       
